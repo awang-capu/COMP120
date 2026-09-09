@@ -35,7 +35,7 @@ Otherwise, continue the following:
 Windows does not come with a C compiler, so you'll need to install one:
 
 1. Download and install **MSYS2** from [msys2.org](https://www.msys2.org). Follow the page until step 8 to install GCC.
-2. **Add GCC to your PATH.** Copy the following command and paste and run it in your terminal within VS Code:
+2. **Add GCC to your PATH.** In your **VS Code terminal**, run:
    ```bash
    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\msys64\ucrt64\bin", "User")
    ```
