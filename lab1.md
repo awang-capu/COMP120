@@ -45,7 +45,7 @@ Windows does not come with a C compiler, so you'll need to install one:
 
 macOS does not have a compiler installed by default, even though `gcc` and `clang` are referenced by the system. Before anything will work, you must install Apple's Command Line Tools:
 
-1. Open **Terminal**.
+1. Open the VS Code **Terminal**.
 2. Run:
    ```bash
    xcode-select --install
@@ -61,6 +61,16 @@ Open the VS Code Terminal, and run the following command to open a new file name
 code hello.c
 ```
 
+For Mac users, if you see,
+```bash
+command not found: code
+```
+That's because code is not added to your shell's PATH by default. You need to manually enable it one time:
+
+1. Open VS Code
+2. Press Cmd+Shift+P to open the Command Palette
+3. Type and select "Shell Command: Install 'code' command in PATH"
+4. Restart your terminal and run `code hello.c` again.
 
 Enter the following program:
 
