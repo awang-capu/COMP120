@@ -34,12 +34,15 @@ Otherwise, continue the following:
 
 Windows does not come with a C compiler, so you'll need to install one:
 
-1. Download and install **MSYS2** from [msys2.org](https://www.msys2.org). Follow the page until step 8 to install GCC.
-2. **Add GCC to your PATH.** In your **VS Code terminal**, run:
+1. Download and install **MSYS2** from [msys2.org](https://www.msys2.org). Follow the instructions on the page through step 8 to install GCC.
+   > **Note:** in step 6,
+   > remove the `$` from the command if you copy, just run `pacman -S mingw-w64-ucrt-x86_64-gcc`
+   
+3. **Add GCC to your PATH.** In your **VS Code terminal**, run:
    ```bash
    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\msys64\ucrt64\bin", "User")
    ```
-3. **Close and reopen** any open terminal or VS Code window so the PATH change takes effect.
+4. **Close and reopen** any open terminal or VS Code window so the PATH change takes effect.
 
 #### macOS: Install Xcode Command Line Tools
 
