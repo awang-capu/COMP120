@@ -61,16 +61,15 @@ Open the VS Code Terminal, and run the following command to open a new file name
 code hello.c
 ```
 
-For Mac users, if you see,
-```bash
-command not found: code
-```
-That's because code is not added to your shell's PATH by default. You need to manually enable it one time:
-
-1. Open VS Code
-2. Press Cmd+Shift+P to open the Command Palette
-3. Type and select "Shell Command: Install 'code' command in PATH"
-4. Restart your terminal and run `code hello.c` again.
+> **Note (macOS only):** If you see
+> ```bash
+> command not found: code
+> ```
+> that's because `code` isn't added to your shell's PATH by default. You need to manually enable it once:
+> 1. Open VS Code
+> 2. Press `Cmd+Shift+P` to open the Command Palette
+> 3. Type and select **"Shell Command: Install 'code' command in PATH"**
+> 4. Restart your terminal and run `code hello.c` again.
 
 Enter the following program:
 
