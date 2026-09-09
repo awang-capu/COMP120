@@ -1,4 +1,4 @@
-# Lab 1 - Installing VS Code and GCC — Writing Your First C Program
+# Installing VS Code and GCC — Writing Your First C Program
 
 For this course, we will use:
 
