@@ -20,13 +20,13 @@ Assume you drink coffee every day, and you want to find out how much your coffee
 
 ### Task
 
-Finish the following starter C program that:
+New a `.c` file named `lab2_part1.c`, copy and paste the following starter C program into it, and finish the program that:
 
 1. Calculates your monthly coffee cost
 2. Calculates your yearly coffee cost from the monthly cost
 3. Prints a friendly summary message using `printf`, including your name, cup size, cups per day, monthly cost, and yearly cost
 
-### Requirements
+### Note:
 
 - Every variable you declare should actually be used somewhere in the output — an unused variable is a sign it doesn't belong yet
 - All values should be hardcoded (no `scanf` yet — that's Part 2)
@@ -53,7 +53,7 @@ int main(void) {
 
     // TODO: calculate yearly cost from monthly cost
 
-    // TODO: print info to match the sample sun below
+    // TODO: print info to match the sample run below
 
 
     return 0;
@@ -68,23 +68,16 @@ Your monthly cost on coffee is $192.00.
 Your yearly cost on coffee is $2304.00.
 ```
 
-### Check Yourself
-
-- If you drink 2 cups a day at $3.20/cup, your monthly cost should be $192.00.
-- What happens to your output if you use `%d` instead of `%f` to print a `float`? Try it and explain the result in a one-line comment.
-- What happens if you use `%s` instead of `%c` to print `size`? Try it and explain the result in a one-line comment. (Hint: `%s` expects a pointer to a string, not a single character's value.)
 
 ---
 
 ## Part 2 — The Interactive Coffee Calculator
 
-### Scenario
-
 Your Part 1 program only works for *you*, with numbers baked right into the code. Now hand the keyboard to a friend: the program should ask *them* directly for their own info and calculate *their* coffee cost, live, without you ever having to edit or recompile the code.
 
 ### Task
 
-Copy your Part 1 program and modify it so that it:
+New a `lab2_part2.c` file, and copy the following starter code and modify it so that it:
 
 1. Asks the person at the keyboard to enter their **name**
 2. Asks them to enter how many **cups of coffee per day** they drink
@@ -93,7 +86,7 @@ Copy your Part 1 program and modify it so that it:
 5. Calculates monthly and yearly cost exactly as in Part 1 (`days_per_month` and `months_per_year` can stay hardcoded constants — those don't change from person to person)
 6. Prints a summary addressed to them **by name**, showing their cups per day, monthly cost, and yearly cost, rounded to 2 decimal places
 
-### Requirements
+### Note:
 
 - Use `scanf("%d", &cups_per_day)` and `scanf("%f", &price_per_cup)` — note the `&` in front of the variable name for these
 - For the name, use `scanf("%s", name)` — **no `&`** in front of a `char[]`, since the array name already refers to its address
