@@ -141,3 +141,5 @@ Hey Maria! You drink 2 cups of coffee per day.
 Your monthly cost on coffee is $96.00.
 Your yearly cost on coffee is $1152.00.
 ```
+
+🎉 **Congratulations! Now complete your lab2 quiz on e-Learn. And that's all for lab2.**
