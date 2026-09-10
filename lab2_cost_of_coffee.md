@@ -57,15 +57,22 @@ int main(void) {
     double yearly_cost;
 
     // TODO: calculate monthly cost
+
     // TODO: calculate yearly cost from monthly cost
 
-    printf("Hello, %s! Thanks for participating.\n", name);
-    printf("You drink %d cups of size %c coffee per day.\n", cups_per_day, size);
-    printf("Your monthly cost on coffee is $%.2f.\n", monthly_cost);
-    printf("Your yearly cost on coffee is $%.2lf.\n", yearly_cost);
+    // TODO: print info to match the sample sun below
+
 
     return 0;
 }
+```
+
+### Sample Run
+```
+Hello, Frank! Thanks for participating.
+You drink 2 cups of size M coffee per day.
+Your monthly cost on coffee is $192.00.
+Your yearly cost on coffee is $2304.00.
 ```
 
 ### Check Yourself
