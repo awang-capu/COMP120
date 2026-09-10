@@ -20,25 +20,18 @@ Assume you drink coffee every day, and you want to find out how much your coffee
 
 ### Task
 
-Write a C program that:
+Finish the following starter C program that:
 
-1. Stores your name in a variable
-2. Stores your cup size as a single character (`'S'`, `'M'`, or `'L'`)
-3. Stores the number of cups of coffee you drink per day
-4. Stores the price of one cup of coffee (this should allow decimals!)
-5. Assumes there are 30 days in a month and 12 months in a year
-6. Calculates your monthly coffee cost
-7. Calculates your yearly coffee cost from the monthly cost
-8. Prints a friendly summary message using `printf`, including your name, cup size, cups per day, monthly cost, and yearly cost
+1. Calculates your monthly coffee cost
+2. Calculates your yearly coffee cost from the monthly cost
+3. Prints a friendly summary message using `printf`, including your name, cup size, cups per day, monthly cost, and yearly cost
 
 ### Requirements
 
-- Use `int` for whole-number counts, `float` for the monthly cost, and `double` for the yearly cost (practice using all three)
-- Use a `char` array (string) for your name
-- Use a single `char` (not a `char[]`) for cup size, and print it with `%c`
 - Every variable you declare should actually be used somewhere in the output — an unused variable is a sign it doesn't belong yet
 - All values should be hardcoded (no `scanf` yet — that's Part 2)
 - Print monthly and yearly cost rounded to 2 decimal places
+
 
 ### Starter Skeleton
 
@@ -46,11 +39,11 @@ Write a C program that:
 #include <stdio.h>
 
 int main(void) {
-    char name[26] = "Frank";
-    char size = 'M';               // 'S', 'M', or 'L'
-    float price_per_cup = 3.2f;    // price for a medium ('M') cup
-    int cups_per_day = 2;
-    int days_per_month = 30;
+    char name[26] = "Frank";       // Stores your name in a variable
+    char size = 'M';               // Stores your cup size as a single character 'S', 'M', or 'L'
+    float price_per_cup = 3.2f;    // Price for a medium ('M') cup (this should allow decimals!)
+    int cups_per_day = 2;          // Stores the number of cups of coffee you drink per day
+    int days_per_month = 30;       // Assume there are 30 days in a month
     int months_per_year = 12;
 
     float monthly_cost;
