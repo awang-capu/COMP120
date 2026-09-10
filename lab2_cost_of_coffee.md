@@ -16,7 +16,7 @@ By the end of this lab, you will be able to:
 
 ### Scenario
 
-You want to find out how much your coffee habit costs you per month and per year.
+Assume you drink coffee every day, and you want to find out how much your coffee habit costs you per month and per year.
 
 ### Task
 
