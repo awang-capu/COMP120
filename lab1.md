@@ -124,6 +124,7 @@ Otherwise, follow the workflow of **Write → Save → Compile → Run → Test 
 
 🎉 **Congratulations! You have compiled and run your first C program. Now complete your [lab1 quiz](https://elearn.capu.ca/mod/quiz/attempt.php?attempt=2249358&cmid=3395889) on e-Learn. And that's all for lab1.**
 
+---
 
 ## Lab1 Review
 
