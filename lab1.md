@@ -124,3 +124,14 @@ Otherwise, follow the workflow of **Write → Save → Compile → Run → Test 
 
 🎉 **Congratulations! You have compiled and run your first C program. Now complete your [lab1 quiz](https://elearn.capu.ca/mod/quiz/attempt.php?attempt=2249358&cmid=3395889) on e-Learn. And that's all for lab1.**
 
+
+## Lab1 Review
+
+- **VS Code** — ✅ Code/Text editor with syntax highlighting, file navigation, integrated terminal.
+
+- **MinGW-w64 (Windows) / Xcode Command Line Tools (Mac)** — ✅ Toolchain: bundles `gcc` compiler + debugger together as one package.
+
+- **C/C++ Extension Pack** — ✅ Provides:
+  1. IntelliSense (autocomplete, syntax checking, code navigation)
+  2. Debugger UI (breakpoints, variable inspection, step-through) — a **frontend** that talks to the underlying debugger behind the scenes; the extension doesn't do the debugging logic itself, just displays it.
+
