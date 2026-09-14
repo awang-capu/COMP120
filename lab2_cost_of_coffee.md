@@ -88,11 +88,8 @@ New a `lab2_part2.c` file, and copy the following starter code and modify it so 
 
 ### Note:
 
-- Use `scanf("%d", &cups_per_day)` and `scanf("%f", &price_per_cup)` — note the `&` in front of the variable name for these
-- For the name, use `scanf("%s", name)` — **no `&`** in front of a `char[]`, since the array name already refers to its address
 - Print a prompt with `printf` *before* every `scanf`, so the user knows what to type and in what order
 - Keep the prompts (the questions) generic/second-person ("Enter how many cups of coffee you drink per day:"), but make the **final summary** personal by using the stored name (e.g. `"Hey Maria! ..."`)
-- Keep the same types as Part 1: `int` for counts, `float` for monthly cost, `double` for yearly cost
 
 ### Starter Skeleton
 
