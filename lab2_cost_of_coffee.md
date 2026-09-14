@@ -114,9 +114,7 @@ int main(void) {
     printf("What is your name: ");
     scanf("%s", name);
 
-    // Prompt for and read cups per day
-    printf("Enter how many cups of coffee you drink per day: ");
-    scanf("%d", &cups_per_day);
+    // TODO: prompt for and read cups per day
 
     // TODO: prompt for and read price per cup
 
