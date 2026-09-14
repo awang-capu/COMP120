@@ -137,4 +137,4 @@ Your monthly cost on coffee is $96.00.
 Your yearly cost on coffee is $1152.00.
 ```
 
-🎉 **Congratulations! Now complete your [lab2_quiz](https://elearn.capu.ca/mod/quiz/view.php?id=3403167) on e-Learn. And that's all for lab2.**
+🎉 **Now complete your [lab2_quiz](https://elearn.capu.ca/mod/quiz/view.php?id=3403167) on e-Learn. And that's all for lab2. Congratulations!**
