@@ -109,3 +109,4 @@ Enter a variable name: _count
 Enter a variable name: 2ndScore
 "2ndScore" is NOT a valid name for a variable.
 ```
+🎉 **Now complete your [lab_quiz](https://elearn.capu.ca/mod/quiz/view.php?id=3407199) on e-Learn. And that's all. Congratulations!**
