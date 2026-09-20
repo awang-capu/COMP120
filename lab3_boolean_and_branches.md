@@ -64,9 +64,6 @@ Write a C program that mimics the wireless remote control of a TV. The program r
 - End every case with `break`.
 - Include a `default` case for invalid buttons.
 
-### Hint
-- Read the button into a `char` variable using `scanf(" %c", &button_input);`. The space before `%c` skips leftover whitespace and newline characters.
-
 ### Sample Run
 
 ```
