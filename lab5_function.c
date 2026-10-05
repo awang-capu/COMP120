@@ -5,7 +5,7 @@
 // By the end of this lab, students will be able to:
 
 // 1. Define and implement functions with parameters and return values.
-// 2. Identify the accumulator pattern, and use `for` loops to update the accumulator.
+// 2. Identify the accumulator pattern - initialize, update, and return.
 // 3. Use functions to process characters and strings.
 // 4. Use `if` / `else if` / `else` statements to make decisions inside functions.
 // 5. Call one function from another function.
