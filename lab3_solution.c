@@ -76,8 +76,10 @@ int main(void) {
     char var_name[50];
     printf("Enter a variable name: ");
     scanf("%s", var_name); 
-    if (var_name[0] == '_' || (var_name[0] >= 'a' && var_name[0] <= 'z') || (var_name[0] >= 'A' && var_name[0] <= 'Z')) {
-        printf("\"%s\" may be a valid name for a variable.\n", var_name);
+    if (var_name[0] == '_' ||
+        (var_name[0] >= 'a' && var_name[0] <= 'z') ||
+        (var_name[0] >= 'A' && var_name[0] <= 'Z')) {
+        printf("\"%s\" starts with a valid first character.\n", var_name);
     } else {
         printf("\"%s\" is NOT a valid name for a variable.\n", var_name);
     }
@@ -95,7 +97,7 @@ int main(void) {
     printf("Enter a variable name: ");
     scanf("%s", var_name); 
     if (var_name[0] == '_' || isalpha(var_name[0])) {
-        printf("\"%s\" may be a valid name for a variable.\n", var_name);
+        printf("\"%s\" starts with a valid first character.\n", var_name);
     } else {
         printf("\"%s\" is NOT a valid name for a variable.\n", var_name);
     }
