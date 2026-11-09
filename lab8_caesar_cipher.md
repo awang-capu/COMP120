@@ -42,7 +42,7 @@ if (input_choice == 1) {
 ...
 ```
 
-You may choose your own function names and parameters. The sample run below uses [lab8_msg.txt](https://github.com/awang-capu/COMP120/blob/main/lab8_msg.txt).
+You may choose your own function names, parameters, and approach to reading and writing files. For file I/O, the code example on slide 13 (the third-to-last slide) of the lecture [slides](https://elearn.capu.ca/pluginfile.php/4175236/mod_resource/content/1/8%20-%20Input_Output.pdf) may be helpful. The sample run below uses [lab8_msg.txt](https://github.com/awang-capu/COMP120/blob/main/lab8_msg.txt).
 
 ```
 Caesar Cipher Menu
