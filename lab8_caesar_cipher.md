@@ -74,7 +74,7 @@ Goodbye!
 
 ## Part 2: Correct `shift_message` for Any Integer Key
 
-Your program must handle any integer key, including large and negative ones. The file `lab8_dialogue_encrypted.txt` was encrypted with key 2026. Decrypting it with key 2026 must recover the original dialogue exactly:
+Your program must handle any integer key, including large and negative ones. The file [lab8_dialogue_encrypted.txt](https://github.com/awang-capu/COMP120/blob/main/lab8_dialogue_encrypted.txt) was encrypted with key 2026. Decrypting it with key 2026 must recover the original dialogue exactly:
 
 ```
 Caesar Cipher Menu
