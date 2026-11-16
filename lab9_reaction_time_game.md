@@ -15,12 +15,12 @@ By the end of this lab, you should be able to:
 ## Hardware
 
 - 1 Arduino Uno R3
+- USB cable
 - 1 LED (any color)
 - 1 pushbutton
-- 1 resistor, 220 Ω to 330 Ω (for the LED)
-- 1 resistor, 10 kΩ (pull-down for the button)
+- 1 resistor of 330 Ω (current limit for the LED)
+- 1 resistor of 10 kΩ (pull-down for the button)
 - Breadboard and jumper wires
-- USB cable
 
 ## Circuit Diagram
 
@@ -32,8 +32,7 @@ Connect the LED to pin 12 and the button to pin 7.
 A simpler description of the wiring:
 
 **LED branch**
-- Pin 12 → 220 Ω resistor → LED anode (long leg, +)
-- LED cathode (short leg, −) → GND
+- Pin 12 → LED anode (long leg, +) → LED cathode (short leg, −) → 330 Ω resistor → GND
 
 **Button branch (pull-down)**
 - 5V → one side of the pushbutton
