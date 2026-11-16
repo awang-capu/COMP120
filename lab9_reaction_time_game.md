@@ -80,12 +80,7 @@ Note: The circuit used in the later part of the lab is the same as the circuit a
 
 **What is reaction time?** Reaction time is the delay between a stimulus and a person's response to it. When a light turns on and you press a button as soon as you see it, the time between the light turning on and your press is your reaction time. Typical human reaction times to a visual signal are about 150 to 300 milliseconds, so your program needs to measure time with at least millisecond precision.
 
-Write your own program to measure the user's reaction time. There are several ways to solve this problem, and you are free to choose your own design, as long as the program:
-
-- waits a random time between 3 and 5 seconds before turning the LED on,
-- records the time when the LED turns on,
-- waits for the user to press the button,
-- and shows the reaction time on the Serial Monitor.
+Write your own program to measure the user’s reaction time and print it to the Serial Monitor. There are several ways to solve this problem, so you are free to choose your own design.
 
 If you would rather follow a guided approach, here are the steps of a hinted algorithm:
 
