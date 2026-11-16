@@ -114,7 +114,7 @@ When you execute your program designed in part 1, if you hold the button down be
 
 1. A player who presses the button before the LED lights is **not** rewarded with a fake time. Instead, the program prints a message such as `Release the button before the game!` and starts a new round.
 2. The program waits until the player releases the button before it starts the next round.
-3. After the user releases his/her holding button, the game still works for a normal round, with the reaction time measured correctly.
+3. After the user releases the button, the game should proceed normally, with the reaction time measured correctly.
 
 Questions to think about:
 
