@@ -18,11 +18,9 @@ You will use two LEDs, two buttons, and a Piezo speaker to build an interactive 
 - If the player repeats the sequence correctly, the speaker plays a success sound, and the game moves to the next round. The next sequence will be one element longer.
 - If the player presses the wrong button, the speaker plays an error sound, and the game ends.
 - The player must respond to each light within 3 seconds. If no button is pressed within this time, the game ends.
-- When the game ends, the speaker plays a different tune to indicate the end of the game.
+- The game continues until the player makes a mistake or fails to respond within the time limit. When the game ends, the speaker plays a different tune to indicate the end of the game.
 
 **Example:** If the displayed sequence is `LLRLR`, the player must press the Left, Left, Right, Left, and Right buttons in exactly that order.
-
-The game continues until the player makes a mistake or fails to respond within the time limit.
 
 
 ### Programming and Design Requirements
