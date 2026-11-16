@@ -1,4 +1,4 @@
-# Lab: Reaction-Time Game
+# Lab 9: Reaction-Time Game
 
 ## Overview
 
