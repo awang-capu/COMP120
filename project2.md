@@ -33,9 +33,11 @@ This project is based on Lab 9, but is more complex. You are expected to apply p
 - **Constants:** Use constants instead of hard-coded values where appropriate.
 - **Naming and Readability**: Use meaningful and descriptive names for variables and functions to make your code easy to read and understand.
 
-## Sample Run ()
+## Sample Run
 
-Your game's serial monitor should behave similarly to, but doesn't have to be exactly the same as the following example:
+## Sample Run
+
+Your program's Serial Monitor output should behave similarly to, but does not have to exactly match, the following example:
 
 ```text
 Game starting...
@@ -53,7 +55,7 @@ Correct! Move to Level 3!
 Level 3:
 LED sequence: LRL
 You pressed: LRL
-Correct! Move to Level 3!
+Correct! Move to Level 4!
 
 Level 4:
 LED sequence: LRLR
@@ -61,7 +63,7 @@ You pressed: LRLL
 Wrong! Game Over!
 ```
 
-*Note: The sample run illustrates the game flow. Your actual program should communicate with the player using the LEDs, buttons, and Piezo speaker rather than relying on Serial Monitor output.*
+*Note: The sample run illustrates the expected game flow. Your actual game must communicate with the player using the LEDs, buttons, and Piezo speaker. Serial Monitor output is intended for debugging and providing additional feedback, not as a replacement for the physical game interface.*
 
 ## Submission
 
