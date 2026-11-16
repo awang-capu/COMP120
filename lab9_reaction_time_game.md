@@ -134,6 +134,4 @@ New round!
 
 ## Submission
 
-2. Describe in Part 2, how your program prevents the user's cheating.
-
 Now complete your lab_quiz on e-Learn. And that's all. Congratulations!
