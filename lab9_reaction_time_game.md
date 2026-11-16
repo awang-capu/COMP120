@@ -11,6 +11,7 @@ By the end of this lab, you should be able to:
 - Measure elapsed time with `millis()` (or `micros()`)
 - Generate random delays with `random()`
 - Identify and fix a simple timing exploit
+- Print info on the Serial Monitor
 
 ## Hardware
 
