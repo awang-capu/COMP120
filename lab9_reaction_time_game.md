@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lab you will build a reaction-time game on an Arduino Uno R3. The program turns on an LED after a random delay, measures how long the user takes to press a button after seeing the LED lighted, and prints the result on the Serial Monitor. 
+In this lab you will build a reaction-time game on an Arduino Uno. The program turns on an LED after a random delay, measures how long the user takes to press a button after seeing the LED lighted, and prints the result on the Serial Monitor. 
 
 By the end of this lab, you should be able to:
 
