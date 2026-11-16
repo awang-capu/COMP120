@@ -64,18 +64,15 @@ void loop() {
 
 Paste this program into your tinkercad circuit design code area as pic1 below or upload it to your arduino hardware as pic2 below. The LED should light while you hold the button and turn off when you release it. If it doesn't, check your wiring before continuing.
 
-<table border="0">
-  <tr>
-    <td align="center"><img src="lab9_tinkercad_button_led.png" width="400"></td>
-    <td width="40"></td>
-    <td align="center"><img src="lab9_arduino_button_led.png" width="400"></td>
-  </tr>
-  <tr>
-    <td align="center">pic1</td>
-    <td></td>
-    <td align="center">pic2</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="lab9_tinkercad_button_led.png" width="400">
+  &emsp;&emsp;&emsp;&emsp;
+  <img src="lab9_arduino_button_led.png" width="400">
+</p>
+
+<p align="center">
+  pic1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; pic2
+</p>
 
 ## Part 1: Reaction-Time Game
 
