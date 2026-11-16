@@ -66,8 +66,8 @@ Paste this program into your tinkercad circuit design code area as pic1 below or
 
 <table>
   <tr>
-    <td align="center"><img src="lab9_circuit.png" width="400"></td>
-    <td align="center"><img src="lab9_circui.png" width="400"></td>
+    <td align="center"><img src="lab9_tinkercad_button_led" width="400"></td>
+    <td align="center"><img src="lab9_arduino_button_led" width="400"></td>
   </tr>
   <tr>
     <td align="center">pic1</td>
