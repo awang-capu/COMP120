@@ -62,7 +62,7 @@ void loop() {
 }
 ```
 
-Upload this program to your Arduino, in Tinkercad (Pic. 1) or on your hardware (Pic. 2). The LED should light while you hold the button and turn off when you release it. If it doesn’t, check your wiring before continuing.
+Upload this program to your Arduino in Tinkercad (Pic. 1) and on your hardware (Pic. 2). The LED should light while you hold the button and turn off when you release it. If it doesn’t, check your wiring before continuing.
 
 <p align="center">
   <img src="lab9_tinkercad_button_led.png" width="500">
