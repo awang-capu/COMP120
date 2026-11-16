@@ -74,7 +74,7 @@ Upload this program to your Arduino in Tinkercad (Pic. 1) and on your hardware (
   Pic. 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pic. 2
 </p>
 
-Note: The circuit used in this lab is the same as the reference circuit above, so you only need to change the starter program to complete the following lab.
+Note: The circuit used in the later part of the lab is the same as the circuit above, so you only need to change the starter program to complete the lab.
 
 ## Part 1: Reaction-Time Game
 
