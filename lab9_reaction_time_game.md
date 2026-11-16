@@ -17,31 +17,31 @@ By the end of this lab, you should be able to:
 - 1 Arduino Uno R3
 - USB cable
 - 1 LED (any color)
-- 1 pushbutton
+- 1 pushbutton (switch)
 - 1 resistor of 330 Ω (current limit for the LED)
 - 1 resistor of 10 kΩ (pull-down for the button)
 - Breadboard and jumper wires
 
 ## Circuit Diagram
 
-Connect the LED to pin 12 and the button to pin 7.
+Before building the circuit on your breadboard, we strongly recommend wiring and testing it first in [tinkercad.com](https://tinkercad.com). Once the starter program runs correctly in the simulator, you’re ready to build it with your hardware.
 
 ![Arduino Reaction-Time Circuit](lab9_circuit.png)
 
 
-A simpler description of the wiring:
+A simple description of the wiring above:
 
 **LED branch**
 - Pin 12 → LED anode (long leg, +) → LED cathode (short leg, −) → 330 Ω resistor → GND
 
-**Button branch (pull-down)**
+**Button branch**
 - 5V → one side of the pushbutton
-- Other side of the pushbutton → pin 7
-- Pin 7 → 10 kΩ resistor → GND
+- the other side of the pushbutton → 10 kΩ resistor → GND
+- the other side of the pushbutton → pin 7
 
 The 10 kΩ resistor keeps pin 7 at LOW when the button is not pressed. Without it, pin 7 can float and read HIGH at random.
 
-## Reference Code: Button Controls LED
+## Starter Code: Button Controls LED
 
 Before you start, make sure the wiring works. This program turns the LED on while the button is held down:
 
