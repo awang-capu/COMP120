@@ -24,7 +24,7 @@ By the end of this lab, you should be able to:
 
 ## Circuit Diagram
 
-Before building the circuit on your breadboard, we strongly recommend wiring and testing it first in [tinkercad.com](https://tinkercad.com). Once the starter program runs correctly in the simulator, you’re ready to build it with your hardware.
+Before building the circuit on your breadboard, we strongly recommend wiring and testing it first in [tinkercad.com](https://tinkercad.com). Once the starter program runs correctly in the simulator, you might feel more confident in building it with your hardware.
 
 ![Arduino Reaction-Time Circuit](lab9_circuit.png)
 
@@ -42,8 +42,6 @@ A simple description of the wiring above:
 The 10 kΩ resistor keeps pin 7 at LOW when the button is not pressed. Without it, pin 7 can float and read HIGH at random.
 
 ## Starter Code: Button Controls LED
-
-Before you start, make sure the wiring works. This program turns the LED on while the button is held down:
 
 ```cpp
 const int LED_PIN = 12;
@@ -64,7 +62,18 @@ void loop() {
 }
 ```
 
-Upload this program. The LED should light while you hold the button and turn off when you release it. If it doesn't, check your wiring before continuing.
+Paste this program into your tinkercad circuit design code area as pic1 below or upload it to your arduino hardware as pic2 below. The LED should light while you hold the button and turn off when you release it. If it doesn't, check your wiring before continuing.
+
+<table>
+  <tr>
+    <td align="center"><img src="lab9_circuit.png" width="400"></td>
+    <td align="center"><img src="lab9_circui.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">pic1</td>
+    <td align="center">pic2</td>
+  </tr>
+</table>
 
 ## Part 1: Reaction-Time Game
 
