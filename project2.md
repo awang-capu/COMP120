@@ -33,7 +33,6 @@ This project is based on Lab 9, but is more complex. You are expected to apply p
 - **Constants:** Use constants instead of hard-coded values where appropriate.
 - **Naming and Readability**: Use meaningful and descriptive names for variables and functions to make your code easy to read and understand.
 
-## Sample Run
 
 ## Sample Run
 
