@@ -82,8 +82,9 @@ Wrong! Game Over!
 
 | Category | Marks | Expectations |
 |---|---:|---|
-| Execution | 50 | The Arduino circuit is correctly wired, easy to play, and the game works according to the specifications. |
+| Execution | 30 | The Arduino circuit is correctly wired, easy to play, and the game works according to the specifications. |
 | Design | 30 | The program is well structured, uses appropriate functions and arrays, minimizes the use of global variables, and uses constants and `static` variables appropriately. |
 | Documentation | 15 | A clear, well-organized, and informative README.md file in your GitHub repo, describing the project, hardware circuit and how to play the game. |
 | Bonus | 5 | 5 marks for including a Tinkercad simulation with a complete circuit diagram in your README.md file. For example, a project that earns 95 marks without the simulation can earn 100 marks with it. |
+| 3-min Presentation | 20 | 
 | **Total** | **100** | |
