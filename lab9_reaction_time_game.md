@@ -74,6 +74,8 @@ Upload this program to your Arduino in Tinkercad (Pic. 1) and on your hardware (
   Pic. 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Pic. 2
 </p>
 
+Note: The circuit used in this lab is the same as the reference circuit above, so you only need to change the starter program to complete the following lab.
+
 ## Part 1: Reaction-Time Game
 
 **What is reaction time?** Reaction time is the delay between a stimulus and a person's response to it. When a light turns on and you press a button as soon as you see it, the time between the light turning on and your press is your reaction time. Typical human reaction times to a visual signal are about 150 to 300 milliseconds, so your program needs to measure time with at least millisecond precision.
