@@ -31,7 +31,7 @@ This project is based on Lab 9, but is more complex. You are expected to apply p
 - **Functions:** Decompose your program into multiple functions, with each function performing a single, well-defined task.
 - **Arrays:** Use an array to store the sequence of lights.
 - **Constants:** Use constants instead of hard-coded values where appropriate.
-- **Documentation:** Include meaningful comments to explain your program's design and any sections of code that may be difficult to understand.
+- **Naming and Readability**: Use meaningful and descriptive names for variables and functions to make your code easy to read and understand.
 
 ## Sample Run ()
 
@@ -69,7 +69,8 @@ Wrong! Game Over!
 2. Upload your Arduino source code (`.ino` file) to your GitHub repo.
 3. Write a good `README.md` file describing your project. Include:
    - Project overview and game instructions.
-   - A picture of hardware components and circuit connections.
+   - (Bonus 5 marks) A picture of a Tinkercad simulation with a complete circuit diagram
+   - A picture of hardware circuit.
    - How to run and play the game.
    - First names of all group members.
 4. Copy your GitHub repository link and submit it on e-learn.
@@ -82,6 +83,6 @@ Wrong! Game Over!
 |---|---:|---|
 | Execution | 50 | The Arduino circuit is correctly wired, easy to play, and the game works according to the specifications. |
 | Design | 30 | The program is well structured, uses appropriate functions and arrays, minimizes the use of global variables, and uses constants and `static` variables appropriately. |
-| Documentation | 15 | A clear, well-organized, and informative README.md file in your GitHub repo, describing the project, hardware components and how to play the game. |
+| Documentation | 15 | A clear, well-organized, and informative README.md file in your GitHub repo, describing the project, hardware circuit and how to play the game. |
 | Bonus | 5 | 5 marks for including a Tinkercad simulation with a complete circuit diagram in your README.md file. For example, a project that earns 95 marks without the simulation can earn 100 marks with it. |
 | **Total** | **100** | |
