@@ -91,7 +91,7 @@ If you would rather follow a guided approach, here are the steps of a hinted alg
 
 Hints:
 
-- Use `random(min, max)` to generate the delay. Remember that the upper bound is exclusive, so `random(3000, 5000)` returns a value from 3000 to 4999 ms.
+- Use [`random(min, max)`](https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/) to generate the delay. Remember that the upper bound is exclusive, so `random(3000, 5000)` returns a value from 3000 to 4999 ms.
 - Use `millis()` to read the time in milliseconds. Store the values in `unsigned long` variables.
 - Open the serial port with `Serial.begin(9600);` in `setup()`, and set the Serial Monitor to 9600 baud.
 - Test your program after each step. Start with the LED turning on, then add the timing.
