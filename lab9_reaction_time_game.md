@@ -110,12 +110,11 @@ New round!
 
 In Part 2, you will refine your program so it cannot be cheated by users.
 
-When you execute your program designed in part 1, if you hold the button down before the LED turns on, and keep holding it, you should see a reaction time of about 0 milliseconds. (If you use `micros()` instead of `millis()`, you may see about 8 microseconds.) 
-This happens because the button is already pressed when the LED turns on, so the program measures a press that happened before the signal. Refine your program so that:
+When you execute your program designed in part 1, if you hold the button down before the LED turns on, and keep holding it, you should see a reaction time of about 0 milliseconds. (If you use `micros()` instead of `millis()`, you may see about 8 microseconds.) Read your program again and you may understand why you see a reaction time of about 0 milliseconds when users keep holding the button. Refine your program so that:
 
 1. A player who presses the button before the LED lights is **not** rewarded with a fake time. Instead, the program prints a message such as `Release the button before the game!` and starts a new round.
-2. The program waits until the player releases the button before it starts the next round. Otherwise, the same press would be counted again.
-3. The game still works for a normal round, with the reaction time measured correctly.
+2. The program waits until the player releases the button before it starts the next round.
+3. After the user releases his/her holding button, the game still works for a normal round, with the reaction time measured correctly.
 
 Questions to think about:
 
