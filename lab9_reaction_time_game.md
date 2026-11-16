@@ -64,7 +64,7 @@ void loop() {
 
 Paste this program into your tinkercad circuit design code area as pic1 below or upload it to your arduino hardware as pic2 below. The LED should light while you hold the button and turn off when you release it. If it doesn't, check your wiring before continuing.
 
-<table>
+<table border="0">
   <tr>
     <td align="center"><img src="lab9_tinkercad_button_led.png" width="400"></td>
     <td width="40"></td>
