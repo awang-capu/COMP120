@@ -53,13 +53,13 @@ Add the micro SD breakout to the photoresistor circuit. Connect the breakout as 
 
 ![SD card breakout wired to the Arduino Uno](lab10_circuit2_add_sd_card.png)
 
-| SD breakout | Arduino Uno |
-|---|---|
-| CS | D8 |
-| DI | D11 |
-| SCK | D13 |
-| DO | D12 |
-| CD | D9 |
+| SD breakout | Arduino Uno | Why it's connected |
+|---|---|---|
+| CS | D8 (or any digital output pin) | Chip Select: the Arduino pulls this pin LOW to select the SD card and talk to it. HIGH deselects it. Must match `CHIP_SELECT` in the code. |
+| DI | D11 | Data In: data flows from the Arduino to the SD card. |
+| SCK | D13 | Serial Clock: the Arduino sends a timing signal so both devices know when each bit is valid. |
+| DO | D12 | Data Out: data flows from the SD card back to the Arduino. |
+| CD | D9 | Card Detect: reports whether a card is inserted. |
 
 Insert the micro SD card into the slot on the breakout board, then upload the `test_SD` program below to the Arduino. If all goes well, the Serial Monitor displays information about the card.
 Let's review the whole circuit again: The photoresistor is the sensor. Its resistance changes with the amount of light hitting it. It forms a voltage divider with a 10 kΩ pulldown resistor, and the voltage at that junction connects to pin A0. The Arduino's analog-to-digital converter reads this voltage and turns it into a number from 0 to 1023. The Arduino then writes each reading to an SD card through the SD card breakout, so the card stores the logged data.
