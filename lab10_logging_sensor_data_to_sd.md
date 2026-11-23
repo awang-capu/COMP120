@@ -62,7 +62,7 @@ Add the micro SD breakout to the photoresistor circuit. Connect the breakout as 
 | CD | D9 |
 
 Insert the micro SD card into the slot on the breakout board, then upload the `test_SD` program below to the Arduino. If all goes well, the Serial Monitor displays information about the card.
-Let's review the whole circuit again: The photoresistor is the sensor. Its resistance changes with the amount of light hitting it. It forms a voltage divider with a 10 kΩ pulldown resistor, and the voltage at that junction connects to pin A0. The Arduino's analog-to-digital converter reads this voltage and turns it into a number from 0 to 1023. The Arduino then writes each reading to an SD card through the SD card breakout board, so the card stores the logged data.
+Let's review the whole circuit again: The photoresistor is the sensor. Its resistance changes with the amount of light hitting it. It forms a voltage divider with a 10 kΩ pulldown resistor, and the voltage at that junction connects to pin A0. The Arduino's analog-to-digital converter reads this voltage and turns it into a number from 0 to 1023. The Arduino then writes each reading to an SD card through the SD card breakout, so the card stores the logged data.
 
 ```cpp
 #include <SPI.h>
@@ -232,7 +232,7 @@ In this part, write a C program on your computer that processes `data26.txt`. Th
 
 You may need to think about what counts as a block:
 
-- Choose a threshold. Light readings are around 750 to 800, and blocked readings are roughly 130 to 450, so a threshold such as 500 works well for this circuit. Your own readings may differ, so check them.
+- Choose a threshold. Light readings are around 550 to 800, and blocked readings are roughly 130 to 450, so a threshold such as 500 works well for this circuit. Your own readings may differ, so check them.
 - Count transitions, not individual samples. A block is counted when the reading first drops below the threshold after being above it. Otherwise, one block that lasts four samples would be counted four times.
 
 Before submitting, count how many times you blocked the light during the test (you should see it from your data chart) and compare that number with your program's output. If they differ, check your threshold and your logic.
