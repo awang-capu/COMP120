@@ -30,7 +30,7 @@ Build a voltage divider with the photoresistor as below:
 
 
 
-Upload the following program and open the Serial Monitor at 9600 baud:
+Upload the following program to the Arduino and open the Serial Monitor at 9600 baud:
 
 ```cpp
 void setup() {
@@ -61,7 +61,7 @@ Add the micro SD breakout to the photoresistor circuit. Connect the breakout as 
 | DO | D12 |
 | CD | D9 |
 
-Insert the micro SD card into the slot on the breakout board, then upload the `test_SD` program below. If all goes well, the Serial Monitor displays information about the card.
+Insert the micro SD card into the slot on the breakout board, then upload the `test_SD` program below to the Arduino. If all goes well, the Serial Monitor displays information about the card.
 Let's review the whole circuit again: The photoresistor is the sensor. Its resistance changes with the amount of light hitting it. It forms a voltage divider with a 10 kΩ pulldown resistor, and the voltage at that junction connects to pin A0. The Arduino's analog-to-digital converter reads this voltage and turns it into a number from 0 to 1023. The Arduino then writes each reading to an SD card through the SD card breakout board, so the card stores the logged data.
 
 ```cpp
