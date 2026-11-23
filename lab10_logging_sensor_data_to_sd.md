@@ -215,11 +215,13 @@ Plot the data using Excel if you are familiar with it. Otherwise, use an AI assi
 
 > "Graph the following data, mimicking a Line Chart with Data Markers in Excel:
 >
+> (paste the contents of your data26.txt below)
+> 
 > 735
 > 
 > 765
 >
-> ...(paste the contents of data26.txt)"
+> ..."
 
 The times you covered the photoresistor with your hand should be clearly visible on the chart. Your chart might be similar to the chart below:
 ![Sample Data Chart](lab10_sample_data_chart.png)
