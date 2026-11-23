@@ -45,7 +45,7 @@ void loop() {
 }
 ```
 
-Values should be high (around 600 to 1000) in bright light and drop when you cover the photoresistor with your hand. [Analog Read Serial](https://docs.arduino.cc/tutorials/uno-rev3/AnalogReadSerial/) is a similar example to read the analog pin A0 and print its value in Serial.
+Values should be high (around 600 to 1000) in bright light and drop when you cover the photoresistor with your hand. [Analog Read Serial](https://docs.arduino.cc/tutorials/uno-rev3/AnalogReadSerial/) is a similar example that reads analog pin A0 and prints its value to the Serial Monitor.
 
 ## Circuit 2: SD Card Test
 
