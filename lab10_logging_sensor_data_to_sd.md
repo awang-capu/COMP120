@@ -6,7 +6,7 @@ In this lab you will **build a simple circuit that logs data**. The circuit cont
 The resistance of a photoresistor decreases as the light hitting it increases. While logging, you will block the light with your hand several times, so the data shows clear changes. You will then **write a C program to process the data** by counting how many times you blocked the light.
 Although this circuit is very simple, the same idea is used in real applications, such as counting objects on a conveyor belt.
 
-Note: although Tinkercad is usually useful for practicing the code and wiring, it is not required for this lab, since it doesn't match real hardware closely enough here. Your logged data must come from your physical circuit.
+Note: although Tinkercad is usually useful for practicing the code and wiring, it is not required for this lab, since it doesn't match real hardware closely enough here. Your logged data should come from your physical circuit.
 ## Hardware
 
 - Arduino Uno
