@@ -228,7 +228,7 @@ The times you covered the photoresistor with your hand should be clearly visible
 
 ## Part 2: Counting Blocks
 
-In this part, write a C program on your computer that processes `data26.txt`. The program should open the file with `fopen()` in read mode, then count how many times you blocked the photoresistor with your hand. Note that `fgets()` reads each line as a C string (a character array), so you may need to convert it to an int with atoi() before counting.
+In this part, write a C program on your computer that processes `data26.txt`. The program should open the file with `fopen()` in read mode, then count how many times you blocked the photoresistor with your hand. Note that `fgets()` reads each line as a C string (a character array), so you may need to convert it to an int with `atoi()` before counting.
 
 You may also need to think about what counts as a block:
 
