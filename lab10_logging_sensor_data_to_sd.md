@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lab you will **build a simple circuit that logs data**. The circuit contains a [photoresistor](https://learn.adafruit.com/photocells/using-a-photocell) (also called a light-dependent resistor, or LDR), a 10 kΩ pulldown resistor, an SD card breakout board, and an [SD card](https://docs.arduino.cc/learn/programming/sd-guide/). The photoresistor and pulldown resistor form a voltage divider that the Arduino reads on pin A0. The breakout connects to the Arduino, and **the card stores the logged data**, which together form a basic data logger.
+In this lab you will **build a simple circuit that logs data**. The circuit contains a [photoresistor](https://learn.adafruit.com/photocells/using-a-photocell) (also called a light-dependent resistor, or LDR), a 10 kΩ pulldown resistor, an SD card breakout board, and an [SD card](https://docs.arduino.cc/learn/programming/sd-guide/). The photoresistor and pulldown resistor form a voltage divider that the Arduino reads on pin A0. The breakout connects to the Arduino, and **the SD card inserted in the breakout stores the logged data**, which together form a basic data logger.
 The resistance of a photoresistor decreases as the light hitting it increases. While logging, you will block the light with your hand several times, so the data shows clear changes. You will then **write a C program to process the data** by counting how many times you blocked the light.
 Although this circuit is very simple, the same idea is used in real applications, such as counting objects on a conveyor belt.
 
