@@ -226,19 +226,14 @@ The times you covered the photoresistor with your hand should be clearly visible
 
 ## Part 2: Counting Blocks
 
-In this part, write a C program on your computer that processes `data26.txt`. The program should:
+In this part, write a C program on your computer that processes `data26.txt`. The program should open the file with `fopen()` in read mode, read data and count how many times you blocked the photoresistor with your hand.
 
-1. Open the file with `fopen()` in read mode.
-2. Read one integer per line.
-3. Count how many times you blocked the photoresistor with your hand.
-
-Think about what counts as a block:
+You may need to think about what counts as a block:
 
 - Choose a threshold. Light readings are around 750 to 800, and blocked readings are roughly 130 to 450, so a threshold such as 500 works well for this circuit. Your own readings may differ, so check them.
 - Count transitions, not individual samples. A block is counted when the reading first drops below the threshold after being above it. Otherwise, one block that lasts four samples would be counted four times.
-- Use a variable to remember whether the light was blocked on the previous sample.
 
-Before submitting, count how many times you blocked the light during the test and compare that number with your program's output. If they differ, check your threshold and your logic.
+Before submitting, count how many times you blocked the light during the test (you should see it from your data chart) and compare that number with your program's output. If they differ, check your threshold and your logic.
 
 ## Submission
 
