@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lab you will **build a simple circuit that logs data**. The circuit contains a [photoresistor](https://learn.adafruit.com/photocells/using-a-photocell) (also called a light-dependent resistor, or LDR), a 10 kΩ pulldown resistor, an SD card breakout board, and an SD card. The photoresistor and pulldown resistor form a voltage divider that the Arduino reads on pin A0. The breakout connects to the Arduino, and **the card stores the logged data**, which together form a basic data logger.
+In this lab you will **build a simple circuit that logs data**. The circuit contains a [photoresistor](https://learn.adafruit.com/photocells/using-a-photocell) (also called a light-dependent resistor, or LDR), a 10 kΩ pulldown resistor, an SD card breakout board, and an [SD card](https://docs.arduino.cc/learn/programming/sd-guide/). The photoresistor and pulldown resistor form a voltage divider that the Arduino reads on pin A0. The breakout connects to the Arduino, and **the card stores the logged data**, which together form a basic data logger.
 The resistance of a photoresistor decreases as the light hitting it increases. While logging, you will block the light with your hand several times, so the data shows clear changes. You will then **write a C program to process the data** by counting how many times you blocked the light.
 Although this circuit is very simple, the same idea is used in real applications, such as counting objects on a conveyor belt.
 
@@ -45,7 +45,7 @@ void loop() {
 }
 ```
 
-Values should be high (around 700 to 800) in bright light and drop when you cover the photoresistor with your hand.
+Values should be high (around 600 to 1000) in bright light and drop when you cover the photoresistor with your hand. [Analog Read Serial](https://docs.arduino.cc/tutorials/uno-rev3/AnalogReadSerial/) is a similar example to read the analog pin A0 and print its value in Serial.
 
 ## Circuit 2: SD Card Test
 
